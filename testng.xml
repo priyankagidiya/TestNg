@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="7" name="Test">
+    <classes>
+      <class name="sdfc_testcases.Sdfc_Login_test"></class>
+      <class name="sdfc_testcases.Usermenu_dropdown_test"></class>
+      <class name ="sdfc_testcases.Create_account_test"></class>
+      <class name ="sdfc_testcases.Create_opportunities_test"></class>
+      <class name ="sdfc_testcases.Leads_test"></class>
+      <class name ="sdfc_testcases.Contacts_test"></class>
+      <class name ="sdfc_testcases.Random_scenerio_test"></class>
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
